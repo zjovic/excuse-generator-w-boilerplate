@@ -1,1 +1,37 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+/* RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+/* RULES */
+body {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+h1 {
+  max-width: 70vw;
+  text-align: center;
+}
